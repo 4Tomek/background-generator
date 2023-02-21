@@ -16,11 +16,11 @@ user_message.clear()  # smaže, pokud tam něco je
 user_message.send_keys('i am extra cool')  # napíše zprávu do okna
 
 search_button = chrome_browser.find_element(
-    By.CLASS_NAME, 'glyphicon-search')  # tlačítko s lupou
+    By.CLASS_NAME, 'glyphicon-search')  # prepsanej komentar
 search_button.click()  # kliknu na lupu
 
 output_message = chrome_browser.find_element(By.ID, 'display')
-assert 'i am extra cool' in output_message.text
+assert 'i am looser, buheheee' in output_message.text
 
 user_button = chrome_browser.find_element(By.CSS_SELECTOR, 'btn-success')
 print(user_button)
@@ -28,4 +28,4 @@ print(user_button)
 chrome_browser.quit()
 chrome_browser.quit()
 
-print('new commit new commit')
+print('mamkin\'s')
