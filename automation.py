@@ -28,4 +28,4 @@ print(user_button)
 chrome_browser.quit()
 chrome_browser.quit()
 
-print('mamkin\'s')
+print('zivot a svet')
