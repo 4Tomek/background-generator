@@ -1,1 +1,3 @@
-totok je testovy dokudement
+totok je testovi dokudement
+
+a já se jmenuji františek
